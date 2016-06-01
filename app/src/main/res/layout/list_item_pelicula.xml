@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="#c9ecd0"
+    android:background="#c9dcec"
     android:layout_margin="10dp"
     android:padding="10dp">
 
