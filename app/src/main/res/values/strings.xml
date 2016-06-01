@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Android Design Project</string>
+    <string name="menu_1">Menú 1</string>
+    <string name="menu_2">Menú 2</string>
+    <string name="menu_3">Menú 3</string>
+    <string name="header_options">Opciones</string>
+    <string name="configuracion">Configuración</string>
+    <string name="salir">Salir</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

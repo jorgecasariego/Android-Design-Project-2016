@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- con single indicamos que solo puede seleccionarse una de
+         estas opciones al mismo tiempo-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/ic_home_black"
+            android:title="@string/menu_1"/>
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/ic_motorcycle_black"
+            android:title="@string/menu_2"/>
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/ic_backup_black"
+            android:title="@string/menu_3"/>
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="@string/header_options">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/ic_settings_backup_restore_black"
+                android:title="@string/configuracion"/>
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@drawable/ic_exit_to_app_black"
+                android:title="@string/salir"/>
+        </menu>
+    </item>
+</menu>
